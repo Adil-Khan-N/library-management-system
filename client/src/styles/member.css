@@ -1,0 +1,36 @@
+.profile-container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .profile-container h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .detail-label {
+    font-weight: bold;
+    color: #34495e;
+  }
+  
+  .detail-value {
+    color: #7f8c8d;
+  }
